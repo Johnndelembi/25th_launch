@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  .event-launch {
+    background-image: url("25th.png");  background-size: cover;
+    background-position: center;
+    height: 100vh;  /* Adjust height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(255, 215, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 70%);
+  }
+  
+  .content-wrapper {
+    text-align: center;
+    color: white;
+    z-index: 1;  /* Ensure content appears above the overlay */
+  }
+  
+  .tzlogo {
+    position: absolute;
+    top: 5px; /* Adjust top position as needed */
+    left: 20px; /* Adjust left position as needed */
+    width: 20px; /* Set desired width for the logo */
+    height: auto; /* Maintains aspect ratio */
+    align-self: center;
+  }
+  
+  .tzlogo img {
+    display: block; /* Makes image behave like a block element */
+  }
+
+  h2 {
+    font-size: 3em;
+    color: #e39c3c;
+    margin-bottom: 5px;
+  }  
+
+  .h2:hover {
+    text-decoration: underline;
+    font-size: 1.1rem;
+  }
+
+  h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1.8em;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  
+  .signup-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: goldenrod;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 100px;
+  }
+  
+  .signup-button:hover {
+    background-color: #e39c3c;
+  }
+
+  .logo {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .logo {
+    width: 200px; /* Adjust width as needed */
+    height: 200px; /* Adjust height as needed */
+  }
+  
+  .logo img {
+    width: 100%; /* Makes image fill container dimensions */
+    height: 100%; /* Makes image fill container dimensions */
+  }
+  
+
+  
+  
